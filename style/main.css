@@ -1,0 +1,273 @@
+body{
+    background-color: blue;
+    max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    font-size: 1.5vw;
+
+}
+
+/*container*/
+#container{
+    background-color: white;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+
+  input[type=radio] {
+    padding: 12px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #contactcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 0.8em;
+    
+  }
+  
+
+/*header*/
+header{
+    text-align: center;
+    background-color: whitesmoke; 
+    
+}
+
+header a{
+    text-decoration: none;
+    font-size: 5vw;
+}
+
+/*navigation bar*/
+
+nav{
+    list-style: none;
+    display: grid;
+    overflow: hidden;
+  background-color:rgb(98, 98, 240);    
+}
+
+nav li{
+    display: inline;
+    float: left;
+    /* margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0; */
+    width: 18%;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+    
+}
+
+nav a{
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   
+}
+
+
+
+/*main*/
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
+}
+
+main p{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+
+#players {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#players td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #players tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #players tr:hover {background-color: #ddd;}
+  
+  #players th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1687b4;
+    color: white;
+  }
+
+/*aside*/
+#aside{
+    background-color: rgba(0, 102, 255, 0.555);
+    padding: 20px;
+    
+ 
+}
+
+#aside ul{
+    text-decoration: none;
+}
+
+#aside img{
+    height: 5vw;
+    width: 5vw;
+}
+
+/*section*/
+#section{
+    padding: 10px;
+    float: left;
+}
+
+#section img{
+    width: 44vw;
+    height: 28vw;
+    float: left;
+    margin: 10px;
+}
+
+#section h5{
+    margin-top: 20em;
+    text-align: center;
+    clear: left;
+}
+
+#section table{
+    margin: auto;
+    border: 1px solid black;
+}
+
+#section table th{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#section table td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#section p {
+    font-size: 1vw;
+}
+
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: rgb(98, 98, 240);
+    color: white;  
+    
+}
+
+
+/*mobile*/
+@media screen and (max-width: 600px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+   body{
+       background-color: blue;
+    
+   }
+
+   #section img{
+    width: 88vw;
+    height: 50vw;
+    float: left;
+    margin: 10px;
+
+    
+}
+
+header{
+    font-size: 3vw;
+}
+
+nav{
+    font-size: 3vw;
+}
+
+#aside{
+    font-size: 3vw;
+}
+
+#section p {
+    font-size: 3vw;
+}
+
+#section h5{
+    font-size: 2.5vw;
+}
+    #section table{
+        height: 100vw;
+        width: 80vw;
+        font-size: 2vw;
+    }
+
+    footer{
+        margin-top: 40vw;
+        font-size: 3vw;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    #container{
+        background-color: white;
+    }
+
+    
+   body{
+    background-color: blue;
+}
+}
+
